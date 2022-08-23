@@ -4,7 +4,6 @@
     font-family: sans-serif;
     color: #bbb22b;
   }
-
-  .h1 {
-    color: #bbb22b;
-  }
+.heading {
+    color: firebrick;
+}
