@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Seo from '../components/seo'
 
 import Layout from '../components/layout'
 // Step 2: Define your component
@@ -13,7 +14,7 @@ const AboutPage = () => {
 
 export const Head = () => (
     <>
-        <title>Sobre Facu</title>
+        <Seo title="About"/>
         <meta name="Todo sobre mi" content="Soy el mejor contratame" />
     </>
 )
